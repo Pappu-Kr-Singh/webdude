@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <title>Web Dude</title>
+    <!-- iconscount cdn -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <!--Bootsrap CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!--Google fonts (Popins)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html" class="nav_logo">
+          <img src="img/webdudeLogo.png" alt="">
+          <!-- <h3>WebDude</h3> -->
+        </a>
+
+        <ul class="nav_menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li>
+            <a
+              href="./img/My_Resume (1).pdf"
+              class="btn btn-primary"
+              download
+              ><i class="bi bi-download"></i>Resume</a
+            >
+          </li>
+        </ul>
+
+        <button id="open-menu-btn"><i class="bi bi-list"></i></button>
+        <button id="close-menu-btn"><i class="bi bi-x-lg"></i></button>
+      </div>
+    </nav>
+
+    <!-- End of navbar -->
+
+    <header>
+      <div class="container header_container">
+        <div class="header__left">
+          <div>
+            <h3>Hello There! This is me</h3>
+            <h1>Web Dude</h1>
+            <p>
+              I'm Pappu Kr Singh, A UI/UX Designer and a Full Stack Web
+              Developer. I have helped 30+ clients worldwide bring their ideas
+              to the online market. Let's collaborate today!
+            </p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="header__right">
+          <div class="header_image">
+            <img src="img/rightimg.png" alt="" />
+          </div>
+          <div class="header__right-bg"></div>
+          <ul class="header_socials">
+            <li>
+              <a
+                href="https://www.instagram.com/royal_rajput_70046/"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Webdude93/" target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/pappu-singh-a30855217/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--**************END OF HEADER************-->
+
+    <seciton id="companies">
+      <div class="container companies_container">
+        <span><img src="img/company-1.png" alt="" /></span>
+        <span><img src="img/company-2.png" alt="" /></span>
+      </div>
+    </seciton>
+
+    <!--************** end of Company************-->
+
+    <section id="services">
+      <div class="container services__container">
+        <div class="services__left">
+          <h1>4+</h1>
+          <h4>Years Working Experience</h4>
+          <small>
+            Having four or more years of work experience as a web developer contributed in many open source project and hackatons.
+          </small>
+        </div>
+
+        <div class="services__right">
+          <h2>
+            Product Designer and Developer, Specialized in Web Design and
+            Digital Designs
+          </h2>
+          <div class="services__cards">
+            <div class="services__card">
+              <span class="services-card-icon"
+                ><i class="uil uil-layers-alt"></i
+              ></span>
+              <h5>Product Design</h5>
+              <a href="#">Discover more <i class="uil uil-arrow-right"></i></a>
+            </div>
+
+            <div class="services__card">
+              <span class="services-card-icon"
+                ><i class="uil uil-layer-group"></i
+              ></span>
+              <h5>Website Development</h5>
+              <a href="#">Discover more <i class="uil uil-arrow-right"></i></a>
+            </div>
+
+            <div class="services__card">
+              <span class="services-card-icon"
+                ><i class="uil uil-lightbulb"></i
+              ></span>
+              <h5>Branding Design</h5>
+              <a href="#">Discover more <i class="uil uil-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--************** end of Services************-->
+
+    <section id="portfolio">
+      <div class="container portfolio__container">
+        <div class="portfolio_head">
+          <h3>Outwork, Succesfull client product</h3>
+          <div class="portfolio__head_right">
+            <p>
+              We have worked with more than 26 happy client who are satisfied with our work.
+            </p>
+            <a href="#">Explore More<i class="uil uil-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio__projects">
+          <article class="portfolio_project">
+            <span class="portfolio_project-img"
+              ><img src="projectimg/project-new.jpg" alt=""
+            /></span>
+            <div class="portfolio_cta">
+              <a href="https://github.com" class="btn" target="_blank"
+                >Github</a
+              >
+              <a
+                href="https://lifebahn.org"
+                class="btn btn-primary"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </article>
+          <article class="portfolio_project">
+            <span class="portfolio_project-img"
+              ><img src="projectimg/project-new2.jpg" alt=""
+            /></span>
+            <div class="portfolio_cta">
+              <a href="https://github.com" class="btn" target="_blank"
+                >Github</a
+              >
+              <a
+                href="https://www.helpxchange.org/"
+                class="btn btn-primary"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </article>
+          <article class="portfolio_project">
+            <span class="portfolio_project-img"
+              ><img src="projectimg/project-3.png" alt=""
+            /></span>
+            <div class="portfolio_cta">
+              <a href="https://github.com" class="btn" target="_blank"
+                >Github</a
+              >
+              <a
+                href="https://lifebahn.org"
+                class="btn btn-primary"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </article>
+          <article class="portfolio_project">
+            <span class="portfolio_project-img"
+              ><img src="projectimg/project-4.png" alt=""
+            /></span>
+            <div class="portfolio_cta">
+              <a href="https://github.com" class="btn" target="_blank"
+                >Github</a
+              >
+              <a
+                href="https://lifebahn.org"
+                class="btn btn-primary"
+                target="_blank"
+                >Live Demo</a
+              >
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--************** end of Services************-->
+
+    <section id="testimonials">
+      <h2>What Our Clients Say</h2>
+      <p class="lead">
+        Here are some latest feedback of what our client say about us, whome we have worked with:
+
+      </p>
+      <div class="container testimonial__container">
+        <article class="testimonial">
+          <p>
+            "I appreciated Webdude's professionalism and reliability. They were always on time with deliverables and were great at managing expectations throughout the project. They were also very open to feedback and willing to make changes as needed to ensure that we were happy with the final product.""
+          </p>
+          <div class="testimonial__client">
+            <span class="avatar">
+              <img src="./img/avatar.svg" alt="" />
+            </span>
+            <div class="testimonial__work">
+              <b>Joseph Khan</b>
+              <small>Founder</small>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial">
+          <p>
+            "I was really impressed with WebDude's technical skills and attention to detail. They were able to take my vision for a complex web application and turn it into a reality, while also ensuring that it was fast, secure, and user-friendly. They were also great at troubleshooting and resolving any issues that came up during the development process."
+          </p>
+          <div class="testimonial__client">
+            <span class="avatar">
+              <img src="./img/avatar.svg" alt="" />
+            </span>
+            <div class="testimonial__work">
+              <b>Francis S.</b>
+              <!-- <small>Digital Marketer</small> -->
+            </div>
+          </div>
+        </article>
+        <article class="testimonial">
+          <p>
+            "our company, we do ongoing reserach with our target audience this
+            include 30-45 minute phone interviews. it was difficult to conduct
+            the interview really listen, and ask good follow up questions."
+          </p>
+          <div class="testimonial__client">
+            <span class="avatar">
+              <img src="./img/avatar3.jpg" alt="" />
+            </span>
+            <div class="testimonial__work">
+              <b>Mark</b>
+              <small>Web Developer</small>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial">
+          <p>
+            "Working with WebDude's was a great experience. They were always responsive and communicative, keeping me up-to-date on the progress of my project and answering any questions I had along the way. The end result was a website that exceeded my expectations in terms of design and functionality."
+          </p>
+          <div class="testimonial__client">
+            <span class="avatar">
+              <img src="./img/avatar.svg" alt="" />
+            </span>
+            <div class="testimonial__work">
+              <b>Devendra Singh</b>
+              <!-- <small>Web Developer</small> -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--************** end of Testimonials************-->
+
+    <section id="contact">
+      <div class="container contact__container">
+        <div class="contact__left">
+          <h2>Let's Talk</h2>
+          <p>Get in Touch with us for any type of web requirements.</p>
+          <ul class="contact_socials">
+            <li>
+              <a
+                href="https://www.instagram.com/royal_rajput_70046/"
+                target="_blank"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/Webdude93/" target="_blank"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/pappu-singh-a30855217/"
+                target="_blank"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <form action="https://formspree.io/f/xjvzggrv" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit" class="contact__btn">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <small> Copyright &copy; Webdude </small>
+    </footer>
+  </body>
+</html>
